@@ -1,0 +1,60 @@
+h1{
+  color:black;
+  font-family:"algerian";
+  font size:80px;
+  text-align:CENTER;
+  Background-color:white;
+    
+}   
+    h2
+{
+      color:black;
+      font-size:50px;
+      text-align:CENTER;
+      background-color:white;
+}
+   h3
+{ 
+  color:black;
+  font-size:40px;
+  text-align:CENTER;
+}
+
+ p
+{
+ background-color:white; 
+ color:black;
+ border:3px solid black;
+ border-normal:1px;
+ font-size:30px;
+ text-align:CENTER;
+  
+  
+}  
+  div
+   width:80px;
+   padding:80px;
+   border:80px;
+   margin:80px;
+}
+  
+   h1
+  {
+    margin:1px;
+  padding-left:1px;
+  padding-right:1px;
+  background-color:#8e44ad;
+}
+ h2
+{
+  font-family:"showcard gothic" 
+}
+ h3
+{
+  font-family:"showcard gothic"
+}
+ p
+{ 
+  border:3px solid black;
+  border-normal:1px;
+}
