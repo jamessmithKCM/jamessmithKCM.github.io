@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Ruthie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(254, 250, 212, 1);
+}
+
+.container {
+    /* width: 1280px;
+    margin: 0 auto; */
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+
+
+}
+
+img {
+    width: 450px;
+}
+
+.hero {
+    /* background:  linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%), url("images/bldg.jpg") center no-repeat; */
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+    background-image: linear-gradient(to right top, #051937, #002359, #002d7c, #00349f, #143ac2);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 95vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    /* text-transform: uppercase; */
+    font-family: 'Ruthie', cursive;
+    font-size: 3.5rem;
+}
+
+.inner {
+    max-width: 1000px;
+    display:flex;
+    /* margin: 0 auto; 
+    flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #fff;
+}
+
+.nav {
+    display: flex;
+    padding: .2rem;
+    background-color:rgba(238, 238, 0, 1);
+    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav li {
+    padding: .5rem;
+}
+
+a:link, a:visited {
+    color: brown;
+    text-decoration: none;
+    /* font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif; */
+}
+
+a:hover {
+    color:#fff;
+}
+
+.button:link{
+    text-transform: uppercase;
+    display: block;
+    background-color: maroon;
+    max-width:fit-content;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: .5em;
+    color: #fff;
+}
+
+.button:visited { color: #fff; }
+
+.button:hover {
+    color: maroon;
+    background-color: #fff;
+    border: 1px solid maroon;
+}
+.tagline q {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+/*  SECTION DESIGN  */
+section {
+    margin: 2rem auto;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.section_container {
+    max-width: 1280px;
+    /* background-color: chartreuse; */
+    padding: 2rem;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.s1_left, .s1_right {
+    flex: 1;
+}
+
+.s1_left p {
+    margin: .7rem;
+}
+
+.s1_left li {
+    list-style: none;
+    margin-left: 3.5rem;
+}
+
+.s1_right p {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.s1_right li {
+    list-style: none;
+    color:rgba(254, 250, 212, 1);
+    background-color: saddlebrown;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    max-width: max-content;
+    margin: 1rem auto;
+    font-weight: 700;
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* PROGRAM OFFERINGS */
+.program_offerings {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.p_item {
+    border: 0px solid green;
+    background-color: ivory;
+    width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 10px -5px;
+}
+
+.program_offerings h3 {
+    text-transform: uppercase;
+}
+
+.program_offerings p {
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.inquire:link {
+    color: #fff;
+    background-color: #051937;   
+    text-transform: uppercase;
+    padding: .8rem;
+    border-radius: 7px;
+    font-size: .8rem;
+    font-weight: bold;
+
+}
+
+.inquire:visited {
+    color: #fff;
+}
+
+.inquire:hover {
+    color: #051937; 
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+
+
+
+.fp {
+    margin: .3rem 0;
+}
+
+.img_container {
+
+    max-width: 980px;
+    width: 100%;
+}
+
+.image-row {
+    display: flex; 
+
+}
+  
+.image-row div {
+    height: 240px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 2px; 
+}
+  
+.image01 {
+    background-image: url("images/9.jpg");
+    flex: 2; 
+}
+  
+.image02 {
+    background-image: url("images/shs.jpg");
+    flex: 1; 
+}
+  
+.image03 {
+    background-image: url("images/1.jpg");
+    flex: 1; 
+}
+  
+.image04 {
+    background-image: url("images/5.jpg");
+    flex: 1; 
+}
+  
+.image05 {
+    background-image: url("images/2.jpg");
+    flex: 2; 
+}
+  
+.image06 {
+    background-image: url("images/6.jpg");
+    flex: 1; 
+}
+  
+.image07 {
+    background-image: url("images/7.jpg");
+    flex: 2; 
+}
+  
+.image08 {
+    background-image: url("images/8.jpg");
+    flex: 1; 
+}
+  
+.image09 {
+    background-image: url("images/9.jpg");
+    flex: 1; 
+}
+  
+.image10 {
+    background-image: url("images/par.jpg");
+    flex: 1; 
+}
+
+/* Footer */
+
+/*  FOOTER */
+
+footer {
+    background-image: linear-gradient(to right top, #051937, #002359, #002d7c, #00349f, #143ac2);
+    color: #fff;
+}
+.footer_container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem 0px;
+
+    display: flex;
+}
+
+.footer_item {
+    display: flex;
+    flex: 1;
+}
+
+.fleft {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.fright a:link {
+    color: #fff;
+}
+
+.fright a:visited {
+    color: #fff;
+}
+
+.fright a:hover {
+    color: yellow;
+}
+
+.fright {
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.social i{
+    margin: 0.7rem;
+}
+
+
